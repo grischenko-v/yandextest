@@ -1,0 +1,35 @@
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  color:  #999999 ;
+  width: 960px; 
+  font: 20px sans-serif;
+}
+.x .axis{
+ font-weight: bold;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+  fill-opacity: .5;
+  fill:rgb(0,255,0);
+}
+
+.y.axis path {
+  display: none;
+
+}
+
+label {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
